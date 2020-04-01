@@ -6,7 +6,7 @@ $( document ).ready(function() {
 //  Cards Layout
   $('.grid').imagesLoaded()
     .done( function( instance ) {
-      $('.gallery__items').masonry({
+      $('.grid').masonry({
         itemSelector: '.grid-item'
       });
     });
