@@ -298,7 +298,7 @@ input[type="file"] {
     -moz-box-shadow: 0 4px 6px rgba(151, 169, 203, 0.184932);
     box-shadow: 0 4px 6px rgba(151, 169, 203, 0.184932);
     overflow: hidden;
-    z-index: 2;
+    z-index: 6;
 }
 .header-groups_opened .header-groups__menu{
     display: block;
