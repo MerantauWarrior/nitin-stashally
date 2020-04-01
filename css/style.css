@@ -573,6 +573,7 @@ input[type="file"] {
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
+    z-index: 5;
 }
 .install-app__close{
     position: absolute;

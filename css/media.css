@@ -40,11 +40,54 @@
         flex-direction: column;
         align-items: center;
     }
+    .header-groups{
+        margin: 15px 0;
+    }
+    .big-tabs__btns{
+        width: 100%;
+        padding: 0;
+    }
+    .big-tabs-btn{
+        width: 48%;
+        margin: 1%;
+    }
+    .install-app{
+        margin: 0;
+    }
+    .header-controls{
+        margin-top: 15px;
+        margin-right: auto;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){
-
+    .cards{
+        margin: 0;
+    }
+    .card{
+        max-width: 100%;
+        margin: 0 0 10px 0;
+    }
+    .card__img img{
+        width: 100%;
+    }
+    .header-btns{
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    .header-btn{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        padding: 5px;
+    }
+    .header-btns:before{
+        margin-top: -2px;
+    }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
-
+    .card{
+        max-width: 48%;
+        margin: 0 1% 10px 1%;
+    }
 }
