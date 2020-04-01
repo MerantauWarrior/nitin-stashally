@@ -1,9 +1,9 @@
-<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="46" height="46">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23 46C35.7025 46 46 35.7025 46 23C46 10.2975 35.7025 0 23 0C10.2975 0 0 10.2975 0 23C0 35.7025 10.2975 46 23 46Z" fill="white"/>
+<svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="34" height="33">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.6663 32.9023C25.7199 32.9023 33.0592 25.5629 33.0592 16.5094C33.0592 7.45583 25.7199 0.116486 16.6663 0.116486C7.61279 0.116486 0.273438 7.45583 0.273438 16.5094C0.273438 25.5629 7.61279 32.9023 16.6663 32.9023Z" fill="white"/>
 </mask>
 <g mask="url(#mask0)">
-<rect x="6.57153" y="3.28571" width="31.7619" height="38.3333" fill="url(#pattern0)"/>
+<rect x="4.95728" y="2.45831" width="22.6378" height="27.3215" fill="url(#pattern0)"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
