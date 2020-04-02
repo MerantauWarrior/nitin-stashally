@@ -44,6 +44,13 @@ $( document ).ready(function() {
     $('.install-app').remove();
   });
 //  Modals
+  $('.js-modal').click(function (e) {
+    e.preventDefault();
+    var target = $(this).attr('href');
+    $('.modal').show();
+    $('.modal-window').removeClass('modal-window_opened');
+    $('.modal-window'+target).addClass('modal-window_opened');
+  });
   $('.js-modal-close').click(function () {
     $('.modal').hide();
     $('body').removeClass('ovh');

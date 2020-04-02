@@ -46,6 +46,9 @@
         margin-top: 15px;
         margin-right: auto;
     }
+    .header-no-auth{
+        margin-right: 0;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){

@@ -229,14 +229,9 @@ input[type="file"] {
     align-items: center;
     width: 100%;
     max-width: 250px;
-    top: 50%;
-    left: 50%;
+    bottom: 0;
+    left: 0;
     padding: 12px;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     background: #FFFFFF;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
@@ -833,6 +828,30 @@ input[type="checkbox"]:checked + span{
     width: 36px;
     height: 36px;
     margin-right: 20px;
+}
+.header-no-auth{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+.header-no-auth__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 114px;
+    height: 40px;
+    margin-right: 15px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    font-size: 14px;
+    color: #333333;
+}
+.header-no-auth__login{
+    background-color: #EFEFEF;
+}
+.header-no-auth__register{
+    border: 1px solid #8FA9D0;
 }
 .header-menu{
     position: absolute;
