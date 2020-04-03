@@ -60,4 +60,22 @@ $( document ).ready(function() {
     e.preventDefault();
     $('.header-menu').toggleClass('header-menu_opened');
   });
+//  Card stash meny
+  $('.js-card-stash-menu').click(function () {
+    $(this).toggleClass('card-stash__dd_opened');
+    $(this).closest('.card').toggleClass('card_focused');
+    $('.card-stash-menu').toggle();
+  });
+  $(document).click(function(e){
+    if (!$('.card').is(e.target) && $('.card').has(e.target).length === 0){
+      $('.card').removeClass('card_focused');
+      $('.card-stash__dd').removeClass('card-stash__dd_opened');
+      $('.card-stash-menu').hide();
+    }
+  });
+  $('.js-card-stash-create').click(function () {
+    $(this).closest('.card-stash-menu').find('.card-stash-menu__content').hide();
+    $(this).closest('.card-stash-menu').find('.card-stash-create').show();
+  });
+
 });

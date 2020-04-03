@@ -16,6 +16,14 @@
     .header-controls{
         margin-right: auto;
     }
+    /*search*/
+    .search-result__categories-title{
+        margin-right: 30px;
+    }
+    .search-result__category{
+        margin-right: 20px;
+        padding: 0 20px;
+    }
 }
 @media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape){
 
@@ -48,6 +56,26 @@
     }
     .header-no-auth{
         margin-right: 0;
+    }
+    /*search*/
+    .search-result__categories,
+    .search-result__categories-items{
+        justify-content: center;
+    }
+    .search-result__categories-title{
+        margin-right: 0;
+    }
+    .search-result__category{
+        margin-right: 0;
+        margin-top: 15px;
+    }
+    .card-stash{
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+    }
+    .card-stash__dd-btn{
+        width: 50px;
     }
 }
 
