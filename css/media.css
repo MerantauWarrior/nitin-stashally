@@ -24,6 +24,11 @@
         margin-right: 20px;
         padding: 0 20px;
     }
+    /*profile*/
+    .btn-back{
+        top: 10px;
+        left: 15px;
+    }
 }
 @media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape){
 
@@ -77,6 +82,19 @@
     }
     .card-stash__dd-btn{
         width: 50px;
+    }
+    /*Profile*/
+    .profile__counter{
+        margin: 0 10px;
+    }
+    .profile__controls{
+        position: static;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+    }
+    .btn-back{
+        top: 10px;
+        left: 15px;
     }
 }
 
