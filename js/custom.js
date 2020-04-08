@@ -98,5 +98,13 @@ $( document ).ready(function() {
   $('.js-dots-menu').click(function () {
     $(this).parent().toggleClass('dots_opened');
   });
-
+//Stash
+  $('.js-stash-edit, .js-opt-delete').click(function (e) {
+    e.preventDefault();
+    var target = $(this).attr('href');
+    $('body').addClass('ovh');
+    $('.modal').show();
+    $('.modal-window').removeClass('modal-window_opened');
+    $('.modal-window'+target).addClass('modal-window_opened');
+  });
 });
