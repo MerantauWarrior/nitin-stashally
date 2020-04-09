@@ -62,6 +62,9 @@
     .header-no-auth{
         margin-right: 0;
     }
+    .header-notifications{
+        right: -30px;
+    }
     /*search*/
     .search-result__categories,
     .search-result__categories-items{
@@ -95,6 +98,33 @@
     .btn-back{
         top: 10px;
         left: 15px;
+    }
+    /*Notifications*/
+    .notifications__controls{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .notifications__btn-read, .notifications-select{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .notifications-item{
+        flex-wrap: nowrap;
+    }
+    .notifications-item__type{
+        order: 1;
+    }
+    .notifications-item__author{
+        order: 2;
+    }
+    .notifications-item__msg{
+        order: 4;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .notifications-item__date{
+        order: 3;
     }
 }
 
