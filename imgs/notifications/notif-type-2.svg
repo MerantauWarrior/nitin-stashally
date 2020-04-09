@@ -1,0 +1,17 @@
+<svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon">
+<g id="Group 8">
+<path id="Rectangle Copy 11" fill-rule="evenodd" clip-rule="evenodd" d="M4.24146 5.05452C4.24146 5.02657 4.26411 5.00391 4.29207 5.00391H5.96997C5.99793 5.00391 6.02059 5.02657 6.02059 5.05452V5.79576C6.02059 6.38629 5.67838 6.92331 5.14313 7.17276V7.17276C5.13545 7.17633 5.12659 7.17633 5.11891 7.17276V7.17276C4.58366 6.92331 4.24146 6.38629 4.24146 5.79576V5.05452Z" fill="white" stroke="#D5D5D5" stroke-width="0.889565"/>
+<path id="Rectangle Copy 12" fill-rule="evenodd" clip-rule="evenodd" d="M8.79126 5.05452C8.79126 5.02657 8.81392 5.00391 8.84187 5.00391H10.5198C10.5477 5.00391 10.5704 5.02657 10.5704 5.05452V5.79576C10.5704 6.38629 10.2282 6.92331 9.69293 7.17276V7.17276C9.68526 7.17633 9.67639 7.17633 9.66872 7.17276V7.17276C9.13346 6.92331 8.79126 6.38629 8.79126 5.79576V5.05452Z" fill="white" stroke="#D5D5D5" stroke-width="0.889565"/>
+<path id="Rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M5.34741 4.40489C5.34741 4.342 5.3984 4.29102 5.46129 4.29102H9.23658C9.29947 4.29102 9.35046 4.342 9.35046 4.40489V6.0727C9.35046 7.40138 8.5805 8.60967 7.37618 9.17093V9.17093C7.35891 9.17898 7.33896 9.17898 7.32169 9.17093V9.17093C6.11737 8.60967 5.34741 7.40138 5.34741 6.07269V4.40489Z" fill="white" stroke="#D5D5D5" stroke-width="0.889565"/>
+<path id="Line 2" d="M7.3491 9.49388V10.3834" stroke="#D5D5D5" stroke-width="0.889565" stroke-linecap="round"/>
+<path id="Line 2 Copy" d="M6.23704 10.6047L8.49764 10.5702" stroke="#D5D5D5" stroke-width="0.889565" stroke-linecap="round"/>
+</g>
+<rect id="Rectangle_2" x="0.647775" y="1.51106" width="11.6755" height="13.8995" rx="1.66793" stroke="#D5D5D5" stroke-width="1.11196"/>
+<rect id="Rectangle_3" x="0.647705" y="12.6309" width="11.6755" height="2.77989" rx="1.38995" stroke="#D5D5D5" stroke-width="1.11196"/>
+<path id="Line" d="M2.47965 12.6295V10.7158" stroke="#D5D5D5" stroke-width="1.11196" stroke-linecap="round"/>
+<path id="Line Copy" d="M2.47965 7.47258V1.80729" stroke="#D5D5D5" stroke-width="1.11196" stroke-linecap="round"/>
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M2.47963 9.60233C2.76461 9.60233 2.99564 9.3713 2.99564 9.08632C2.99564 8.80134 2.76461 8.57031 2.47963 8.57031C2.19465 8.57031 1.96362 8.80134 1.96362 9.08632C1.96362 9.3713 2.19465 9.60233 2.47963 9.60233Z" fill="#D5D5D5" stroke="#D5D5D5" stroke-width="0.555978"/>
+<path id="Line 3" d="M2.91021 14.0202H10.0992" stroke="#D5D5D5" stroke-width="0.555978" stroke-linecap="round"/>
+</g>
+</svg>

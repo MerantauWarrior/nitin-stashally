@@ -3,13 +3,19 @@ $( document ).ready(function() {
   $('.header-groups__body').click(function () {
     $(this).parent().toggleClass('header-groups_opened');
   });
+  $('.js-toggle-header-notif').click(function (e) {
+    e.preventDefault();
+    $(this).parent().toggleClass('header-notifications_opened');
+  });
 //  Cards Layout
-  $('.grid').imagesLoaded()
-    .done( function( instance ) {
-      $('.grid').masonry({
-        itemSelector: '.grid-item'
+  if($('.grid').length > 0){
+    $('.grid').imagesLoaded()
+      .done( function( instance ) {
+        $('.grid').masonry({
+          itemSelector: '.grid-item'
+        });
       });
-    });
+  }
 //  Big Tabs
   $('.js-big-tabs-btn').click(function (e) {
     e.preventDefault();
@@ -106,5 +112,15 @@ $( document ).ready(function() {
     $('.modal').show();
     $('.modal-window').removeClass('modal-window_opened');
     $('.modal-window'+target).addClass('modal-window_opened');
+  });
+//  Notifications
+  $('.js-notif-toggle').click(function () {
+    $(this).parent().toggleClass('notifications-select_opened');
+  });
+  $('.js-check-all-notif').click(function () {
+    var checkedStatus = $(this).find('.inp-notifications-select')[0].checked;
+    $(this).closest('form').find('.inp-notifications-select').each(function () {
+      $(this).prop('checked', checkedStatus);
+    });
   });
 });
