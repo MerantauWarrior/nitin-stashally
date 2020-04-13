@@ -2,7 +2,7 @@
     .cards{
         justify-content: space-between;
     }
-    .card{
+    .card:not('.slick-slide'){
         max-width: 31%;
         margin: 0 1% 10px 1%;
     }
@@ -28,6 +28,17 @@
     .btn-back{
         top: 10px;
         left: 15px;
+    }
+    /*groups*/
+    .groups__arrow{
+        top: -40px;
+    }
+    .groups__arrow-next{
+        right: 0;
+    }
+    .groups__arrow-prev{
+        right: 40px;
+        left: auto;
     }
 }
 @media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape){

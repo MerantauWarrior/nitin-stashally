@@ -123,4 +123,54 @@ $( document ).ready(function() {
       $(this).prop('checked', checkedStatus);
     });
   });
+//  Groups
+  if($('.groups__items').length > 0){
+    $('.groups__items').each(function () {
+      var sliderGroup = $(this);
+      sliderGroup.slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        prevArrow: sliderGroup.parent().find('.groups__arrow-prev'),
+        nextArrow: sliderGroup.parent().find('.groups__arrow-next'),
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+      sliderGroup.parent().find('.groups__arrow-prev').hide();
+      sliderGroup.parent().find('.groups__arrow').click(function () {
+        var currentSlide = sliderGroup.parent().find('.groups__items').slick('slickCurrentSlide');
+        console.log(currentSlide);
+        if(currentSlide > 0){
+          sliderGroup.parent().find('.groups__arrow-prev').show();
+        }else {
+          sliderGroup.parent().find('.groups__arrow-prev').hide();
+        }
+      });
+    });
+  }
+
+
 });
