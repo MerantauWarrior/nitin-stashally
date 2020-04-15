@@ -171,6 +171,70 @@ $( document ).ready(function() {
       });
     });
   }
-
+//  Create
+  if($('.create__slider-items').length > 0){
+    $('.create__slider-items').each(function () {
+      var sliderGroup = $(this);
+      sliderGroup.slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: sliderGroup.parent().find('.create__slider-arrow-prev'),
+        nextArrow: sliderGroup.parent().find('.create__slider-arrow-next'),
+        responsive: [
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+      sliderGroup.parent().find('.create__slider-arrow-prev').hide();
+      sliderGroup.parent().find('.create__slider-arrow').click(function () {
+        var currentSlide = sliderGroup.parent().find('.create__slider-items').slick('slickCurrentSlide');
+        console.log(currentSlide);
+        if(currentSlide > 0){
+          sliderGroup.parent().find('.create__slider-arrow-prev').show();
+        }else {
+          sliderGroup.parent().find('.create__slider-arrow-prev').hide();
+        }
+      });
+    });
+  }
+  if($('.create__text-slider-items').length > 0){
+    $('.create__text-slider-items').each(function () {
+      var sliderGroup = $(this);
+      sliderGroup.slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: sliderGroup.parent().find('.create__text-slider-arrow-prev'),
+        nextArrow: sliderGroup.parent().find('.create__text-slider-arrow-next')
+      });
+      sliderGroup.parent().find('.create__text-slider-arrow-prev').hide();
+      sliderGroup.parent().find('.create__text-slider-arrow').click(function () {
+        var currentSlide = sliderGroup.parent().find('.create__text-slider-items').slick('slickCurrentSlide');
+        console.log(currentSlide);
+        if(currentSlide > 0){
+          sliderGroup.parent().find('.create__text-slider-arrow-prev').show();
+        }else {
+          sliderGroup.parent().find('.create__text-slider-arrow-prev').hide();
+        }
+      });
+    });
+  }
 
 });
