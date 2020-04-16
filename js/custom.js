@@ -236,5 +236,47 @@ $( document ).ready(function() {
       });
     });
   }
+//  Product
+  if($('.product__slider-big').length > 0){
+    $('.product__slider-big').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      prevArrow: $('.product__galler-arrow-prev'),
+      nextArrow: $('.product__galler-arrow-next'),
+      asNavFor: '.product__slider-small'
+    });
+    $('.product__galler-arrow-prev').hide();
+    $('.product__galler-arrow').click(function () {
+      var currentSlide = $('.product__slider-big').slick('slickCurrentSlide');
+      console.log(currentSlide);
+      if(currentSlide > 0){
+        $('.product__galler-arrow-prev').show();
+      }else {
+        $('.product__galler-arrow-prev').hide();
+      }
+    });
+  }
+  if($('.product__slider-small').length > 0){
+    $('.product__slider-small').slick({
+      dots: false,
+      arrows: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      asNavFor: '.product__slider-big'
+    });
+  }
+  $('.js-product-stash-menu').click(function () {
+    $('.product-stash-menu').toggle();
+  });
+  $('.js-product-stash-create').click(function () {
+
+    $(this).closest('.product-stash-menu').find('.card-stash-menu__content').hide();
+    $(this).closest('.product-stash-menu').find('.card-stash-create').show();
+  });
 
 });

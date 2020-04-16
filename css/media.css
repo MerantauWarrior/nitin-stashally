@@ -63,6 +63,13 @@
     .create-tag-item__short{
         max-width: 250px;
     }
+    /*product*/
+    .product{
+        padding: 50px 0;
+    }
+    .product .btn-back{
+        top: -40px;
+    }
 }
 @media screen and (min-width: 320px) and (max-width: 767px){
     .header__inner{
@@ -201,6 +208,8 @@
     .create-tag-item__short{
         max-width: 100%;
     }
+    /*product*/
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){
@@ -228,5 +237,21 @@
     .card{
         max-width: 48%;
         margin: 0 1% 10px 1%;
+    }
+}
+@media screen and (max-width: 374px){
+    /*Product*/
+    .product-controls, .product-btns{
+        margin-left: auto;
+    }
+    .product-similar__img{
+        width: 68px;
+        min-width: 68px;
+    }
+    .product-similar__bottom{
+        flex-wrap: wrap;
+    }
+    .product-similar__btns{
+        margin-top: 10px;
     }
 }
