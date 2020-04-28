@@ -64,6 +64,13 @@
         max-width: 300px;
         margin-top: 0;
     }
+    /*Extra pages*/
+    .extra-page-row__text{
+        max-width: 49%;
+    }
+    .extra-page-row__img{
+        max-width: 49%;
+    }
 }
 @media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape){
 
@@ -264,6 +271,65 @@
     /*community*/
     .community__sidebar{
         margin-top: 0;
+    }
+    /*extra pages*/
+    .extra-page-text{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .extra-page-headeing{
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .extra-page-headeing-small{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .content-guide__block{
+        margin-bottom: 40px;
+    }
+    .content-guide__block-w-bb{
+        padding-bottom: 35px;
+    }
+    .content-guide__after-logo-text{
+        margin-bottom: 40px;
+    }
+    .extra-page img{
+        max-width: 90%;
+    }
+    .extra-page-row{
+        padding: 40px 0;
+    }
+    .extra-page-row--reverve .extra-page-row__text{
+        order: 2;
+    }
+    .extra-page-row--reverve .extra-page-row__img{
+        order: 1;
+    }
+    .extra-page-row__img{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .extra-about-bg__title{
+        font-size: 30px;
+    }
+    .extra-about-bg{
+        padding: 80px 0;
+    }
+    .extra-page-join__text{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .extra-menu__link{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .extra-menu__list-item{
+        margin: 0 5px;
+    }
+    .extra-menu__inner{
+        justify-content: center;
     }
 }
 
